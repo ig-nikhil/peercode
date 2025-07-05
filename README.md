@@ -1,6 +1,6 @@
 # PeerCode
 
-**PeerCode** is a full-stack developer & coder community platform built for the *Code to Career* club at **MNIT Jaipur**. It aims to provide an interactive space for students to collaborate, ask questions, share knowledge, and track their competitive programming progress across platforms like **LeetCode**, **Codeforces**, and **GitHub** — all in one place.
+**PeerCode** is a full-stack developer & coder community platform. It aims to provide an interactive space for students to collaborate, ask questions, share knowledge, and track their competitive programming progress across platforms like **LeetCode**, **Codeforces**, and **GitHub** — all in one place.
 
 ## 🌐 Live Preview
 
@@ -102,65 +102,3 @@ peercode/
 ├── tailwind.config.ts  # Tailwind CSS config
 └── tsconfig.json       # TypeScript config
 ```
-
----
-
-## ⚙️ Getting Started
-
-### 1. Clone the repo
-
-```bash
-git clone https://github.com/ig-nikhil/peercode.git
-cd peercode
-```
-
-### 2. Install dependencies
-
-```bash
-npm install
-# or
-yarn install
-```
-
-### 3. Environment setup
-
-Create a `.env.local` file:
-
-```env
-MONGODB_URI=your_mongodb_connection_string
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
-CLERK_SECRET_KEY=your_clerk_secret_key
-NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/home
-NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/home
-```
-
-### 4. Run the development server
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Visit [http://localhost:3000](http://localhost:3000) in your browser.
-
----
-
-## 💡 Contribution
-
-Pull requests are welcome! For significant changes, please open an issue first to discuss your ideas.
-
----
-
-## 📜 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-## 🙌 Acknowledgements
-
-Created under the **Code to Career** club, MNIT Jaipur 💙  
-Special thanks to all contributors and community testers.
